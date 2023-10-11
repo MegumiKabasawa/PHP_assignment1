@@ -1,0 +1,177 @@
+
+/* Define a custom font called "myfont" */
+/* Task 1: Monochromatic Color Scheme */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Bentham&family=Caveat&family=Exo:wght@100&family=Indie+Flower&family=Pacifico&display=swap');
+
+@media (max-width: 600px){
+  .main{
+    width: 100%;
+  }
+}
+
+/* * {
+  margin:0;
+  padding: 0;
+} */
+/* Setting for the body section */
+body{
+  background: #F9E4D4; 
+}
+.logo{
+  background-image: url(../images/Fall2.jpeg);
+  background-position: center center;
+}
+
+header h1{
+  line-height : 0.3;
+}
+
+/* Setting for the header section */
+header {
+  width: 100%;
+  font-size: 2.0rem;
+  font-family: 'myfont', 'Bentham', serif;
+  color:#9C0F48 ;
+  text-align: center;
+  letter-spacing: 0em;
+}
+
+/* When hover the header, change the color */
+header h1:hover {
+  color: #E67D60;
+}
+
+
+/* Setting for the section_1 */
+.article {
+  font-family: 'myfont', 'Bentham', serif;
+  background: #AD877D; 
+  color: #614C46;
+  max-width: 1000px;
+  width: 30%;
+  height: 47vw;
+  padding: 10px 10px 10px 10px;
+  margin: 1vw;
+  overflow-wrap: normal;
+  text-align: center;
+}
+
+.article p{
+  font-size: 1.3vw;
+}
+.three-sections{
+  display: flex;
+  justify-content: space-between;
+  }
+
+/* Setting for the main section */
+.main {
+  width: 100%;
+  font-kerning: auto;
+  float: center;
+}
+
+.photo-image {
+  width: 19vw; /* Set the desired width  */
+  height: 27vw; /* Automatically calculate the height to maintain the aspect ratio */
+}
+
+/* Setting for the footer section */
+footer {
+  text-align: center ;
+  padding: 3px;
+  font-size: large;
+}
+
+nav{
+  text-align: center;
+  }
+  nav ul{
+  margin: 0 ;
+  padding: 0 ;
+  }
+  nav ul li{
+  font-family: 'myfont', 'Bentham', serif;
+  list-style: none;
+  display: inline-block;
+  width: 18%;
+  min-width: 90px;
+  }
+  nav ul li a {
+    color: #D67D3E;
+  }
+
+.voting_form{
+  font-family: 'myfont', 'Bentham', serif;
+  color:#91684A;
+    position: relative;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #E1BC91;
+    box-shadow: 14px 14px 20px #C87941, -14px -14px 20px white;
+    margin: auto;
+}
+.form{
+  margin-bottom: 20px;
+  position: absolute;
+}
+
+.voting_form .form-group{
+  color: #91684A;
+  text-align: left;
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+#input1, #input2, #input4{
+  height: 20px;
+  width: 20em;
+  border-radius: 50px;
+  border-color: #cbced1;
+}
+#input3{
+padding: 10px;
+border-radius: 50px;
+border-color: #D67D3E;
+color: #91684A;
+font-family: 'myfont', 'Bentham', serif;
+font-size: 20px;
+}
+
+#input3:hover{
+  color: #fff;
+  background: #E6B325;
+}
+/* Setting for the button section */
+.form-group .btn {
+  font-family: 'myfont', 'Bentham', serif;
+  color: #176B87;
+  background-color: #fff;
+  border-radius: 100vh;
+  border-color: #176B87;
+}
+
+.form-group .btn:hover {
+  color: #fff;
+  background: #176B87;
+}
+
+nav .navbar{
+  background: #fff;
+}
+.container-fluid{
+
+  background: #fff;
+}
+.navbar-toggler{
+  background: #176B87;
+}

@@ -1,0 +1,72 @@
+
+/* Define a custom font called "myfont" */
+/* Task 1: Monochromatic Color Scheme */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Bentham&family=Caveat&family=Exo:wght@100&family=Indie+Flower&family=Pacifico&display=swap');
+
+@media (max-width: 600px){
+  .main{
+    width: 100%;
+  }
+}
+
+/* * {
+  margin:0;
+  padding: 0;
+} */
+/* Setting for the body section */
+body {
+  background: #fff; 
+}
+
+/* Setting for the header section */
+header {
+  font-family: 'myfont', 'Bentham', serif;
+  color: #176B87;
+  text-align: center;
+  letter-spacing: 0em;
+}
+
+
+/* When hover the header, change the color */
+header h1{
+    color: #176B87;
+    text-align: center;
+}
+
+.nav-link{
+    color: #176B87;
+    font-size: 2rem;
+}
+
+.nav-link:hover{
+    color: #E67D60;
+}
+
+/* Setting for the main section */
+.main {
+  width: 100%;
+  font-kerning: auto;
+  float: center;
+}
+.table{
+    background: #176B87; 
+    color: #fff;
+
+}
+footer {
+  text-align: center ;
+  padding: 3px;
+  font-size: large;
+}
+
+.container-fluid{
+
+  background: #fff;
+}
+.navbar-toggler{
+  background: #176B87;
+}
+.bg-primary {
+    background-color: #176B87;
+}
