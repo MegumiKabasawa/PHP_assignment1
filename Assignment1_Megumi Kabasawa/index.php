@@ -38,7 +38,6 @@
   </header>
 
       <!-- main section-->
-
       <main>
         <div class="three-sections">
 
@@ -140,8 +139,9 @@
 						}
 					 ?>
       </main>
+      <!-- footer section -->     
      <footer>
-     <p>Autumn Hats popular vote (C) All Rights Reserved.</p>
+      <small>&copy; 2023 Autumn Hats Inc. All Rights Reserved</small>
      </footer>
    </body>
 </html>
