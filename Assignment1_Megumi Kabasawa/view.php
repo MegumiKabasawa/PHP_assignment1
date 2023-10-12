@@ -53,6 +53,8 @@ $res = $database->read();
 					<th>Vote</th>
 					<th>Message</th>
 				</tr>
+				
+				<!-- php -->      
 				<?php
 				while($r = mysqli_fetch_assoc($res)){
 					?>
@@ -69,5 +71,10 @@ $res = $database->read();
 					</table>
 				</div>
 			</div>
+			
+			<!-- footer section -->   
+			<footer>
+				<small>&copy; 2023 Autumn Hats Inc. All Rights Reserved</small>
+			</footer>
 		</body>
 		</html>
