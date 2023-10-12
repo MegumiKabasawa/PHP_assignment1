@@ -10,10 +10,6 @@
   }
 }
 
-/* * {
-  margin:0;
-  padding: 0;
-} */
 /* Setting for the body section */
 body{
   background: #F9E4D4; 
@@ -77,12 +73,6 @@ header h1:hover {
   height: 27vw; /* Automatically calculate the height to maintain the aspect ratio */
 }
 
-/* Setting for the footer section */
-footer {
-  text-align: center ;
-  padding: 3px;
-  font-size: large;
-}
 
 nav{
   text-align: center;
@@ -174,4 +164,7 @@ nav .navbar{
 }
 .navbar-toggler{
   background: #176B87;
+}
+footer {
+  margin-top: 3vw;
 }
